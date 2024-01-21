@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.star {
+	min-height: 100vh;
+	background: url(../img/star.jpg) no-repeat center / cover;
+}
+
+.star-content {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.star-title {
+	color: #fff;
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.star-subtitle {
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 80px;
+}
+
+.star-button {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 80px;
+	text-decoration: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
+
+	padding: 9px 25px;
+
+	border-radius: 4px;
+	background: #8dd83d;
+}
+
+/*  ------------------Gamepad---------------------------------- */
+
+.gamepad {
+	min-height: 100vh;
+	background: url(../img/DesignLabSection.png) no-repeat bottom / cover;
+}
+
+.gamepad-content {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	margin-left: 10%;
+	margin-right: 50%;
+}
+
+.gamepad-title {
+	color: #fff;
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.gamepad-subtitle {
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 80px;
+}
+
+.gamepad-button-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.gamepad-button {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 80px;
+	text-decoration: none;
+
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
+
+	padding: 9px 25px;
+
+	border-radius: 4px;
+	background: #373a3c;
+}
+
+.gamepad-secondbutton {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 80px;
+	text-decoration: none;
+
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
+
+	padding: 9px 25px;
+
+	border-radius: 4px;
+	background: #8dd83d;
+}
+
+.gamepad-button:hover {
+	background: black;
+}
+
+.gamepad-secondbutton:hover {
+	background: #6ed73c;
+}
